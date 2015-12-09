@@ -17,7 +17,8 @@
 	
 	<modules>
 		<module>portobello-core</module>
-	</modules>
+        <module>portobello-benchmark</module>
+    </modules>
 
 	<scm>
 		<developerConnection>scm:git@github.com:g-dx/portobello.git</developerConnection>
