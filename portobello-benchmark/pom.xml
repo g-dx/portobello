@@ -4,12 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>portobello</artifactId>
-        <groupId>com.g-dx.portobello</groupId>
+        <groupId>com.gdx.portobello</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>portobello-benchmark</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.gdx.portobello</groupId>
+            <artifactId>portobello-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
